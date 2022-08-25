@@ -91,21 +91,21 @@ function draw() {
         // cashG.destroyEach;
         // diamondsG.destroyEach;
         // jewelryG.destroyEach;
-         swordGroup.destroyEach;
+        // swordGroup.destroyEach;
 
-         cashG.destroy();
+         //cashG.destroy();
         // diamondsG.destroy();
         // jewelryG.destroy();
         // swordGroup.destroy();
         
-        // cashG.destroyEach();
-        // diamondsG.destroyEach();
-        // jewelryG.destroyEach();
+         cashG.destroyEach();
+         diamondsG.destroyEach();
+         jewelryG.destroyEach();
          swordGroup.destroyEach();
         
         // cashGdestroyEach();
         // diamondsGdestroyEach();
-         jewelryGdestroyEach();
+        //jewelryGdestroyEach();
         // swordGroupdestroyEach();
         
         cashG.setVelocityYEach(0);
